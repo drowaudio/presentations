@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="bcAG3G" name="2_MultipleViews" displaySplashScreen="0" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.ValueTreeDemo" includeBinaryInAppConfig="1"
+              cppLanguageStandard="14" jucerVersion="5.2.0" companyCopyright="">
+  <MAINGROUP id="ljjkZn" name="2_MultipleViews">
+    <GROUP id="{2CECFF3F-22B2-3403-F7FE-1876E68BA888}" name="shared">
+      <FILE id="kPqyGQ" name="Components.h" compile="0" resource="0" file="../shared/Components.h"/>
+      <FILE id="eGb3Tz" name="Identifiers.h" compile="0" resource="0" file="../shared/Identifiers.h"/>
+      <FILE id="EzKoS1" name="SelectionPanel.h" compile="0" resource="0"
+            file="../shared/SelectionPanel.h"/>
+      <FILE id="bgqn98" name="ValueTreeItems.h" compile="0" resource="0"
+            file="../shared/ValueTreeItems.h"/>
+      <FILE id="k5xC42" name="drow_Utilities.h" compile="0" resource="0"
+            file="../shared/drow_Utilities.h"/>
+      <FILE id="eH1iqB" name="drow_ValueTreeObjectList.h" compile="0" resource="0"
+            file="../shared/drow_ValueTreeObjectList.h"/>
+    </GROUP>
+    <GROUP id="{CA9F3A44-329C-1220-B9B2-0D47B324915B}" name="Source">
+      <FILE id="RguiCi" name="ArrangeView.h" compile="0" resource="0" file="Source/ArrangeView.h"/>
+      <FILE id="pWQ5no" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="LUudFv" name="ValueTreesDemo.h" compile="0" resource="0"
+            file="Source/ValueTreesDemo.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" extraCompilerFlags="-Wall -Wextra -Wconstant-conversion -Wint-conversion -Woverloaded-virtual -Wconditional-uninitialized -Wunused-parameter -Wshorten-64-to-32 -Wstrict-aliasing -Wshadow -Wreorder -Wunused-private-field -Wbool-conversion -Wno-missing-field-initializers -Wno-ignored-qualifiers">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="ValueTreeDemo"
+                       customXcodeFlags="CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION=YES"
+                       enablePluginBinaryCopyStep="1"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="ValueTreeDemo"
+                       customXcodeFlags="CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION=YES"
+                       enablePluginBinaryCopyStep="1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../modules"/>
+        <MODULEPATH id="juce_events" path="../modules"/>
+        <MODULEPATH id="juce_graphics" path="../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
