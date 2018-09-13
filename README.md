@@ -4,9 +4,9 @@ This repository holds materials for the various talks and presentations I've giv
 
 ###### Index:
   - [A Backgrounder on Background Tasks](#a-backgrounder-on-background-tasks)
-  - [Using JUCE value trees and modern C++ to build large scale applications](#using-juce-valuetrees-and-modern-c++-to-build-large-scale-applications)
-  - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c++-with-juce-to-improve-code-clarity)
-  - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c++11-to-improve-code-clarity---braced-initialisers)
+  - [Using JUCE value trees and modern C++ to build large scale applications](#using-juce-valuetrees-and-modern-c-to-build-large-scale-applications)
+  - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c-with-juce-to-improve-code-clarity)
+  - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
 
 ### A Backgrounder on Background Tasks
 ###### London Audio Developers Meetup - April 2018 - [Content](https://github.com/drowaudio/presentations/tree/master/Audio%20Developer%20Meetup%20April%202018) - [Video](https://skillsmatter.com/skillscasts/11632-audio-developers-meet-up-april)
