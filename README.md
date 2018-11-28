@@ -3,10 +3,19 @@
 This repository holds materials for the various talks and presentations I've given. Links to video recordings where available can be found below.
 
 ###### Index:
+  - [pluginval - Yeah, but Why Validate Plugins](#pluginval---yeah-but-why-validate-plugins)
   - [A Backgrounder on Background Tasks](#a-backgrounder-on-background-tasks)
   - [Using JUCE value trees and modern C++ to build large scale applications](#using-juce-valuetrees-and-modern-c-to-build-large-scale-applications)
   - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c-with-juce-to-improve-code-clarity)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
+
+### pluginval - Yeah, but Why Validate Plugins
+###### ADC 2018 - [Content](https://github.com/drowaudio/presentations/tree/master/ADC%202018%20-%20pluginval,%20Yeah,%20but%20Why%20Validate%20Plugins) - [Video](https://www.youtube.com/watch?v=Q97LBXqgMus)
+
+Earlier in the year we released an open source tool “pluginval” for validating audio plugins. The aim of this is to make it easier to automate the testing and validation process of developing plugins in order to catch more bugs, and sooner in the development process. Additionally, this can be used by host developers, and even end users, to check for plugin compatibility with JUCE based hosts. To start I’ll give an overview of pluginval, the architecture, deployment considerations and how everyone can make use of it.
+
+Secondly I’ll discuss some of the cases that inspired pluginval’s creation in the first place. Developing plugins to an API may seem simple but there’s a lot of “grey” in that area. I’ll dig through some of it giving examples of what crazy behaviour both hosts and plugins alike can do and the tests employed by pluginval to ensure you’re not caught out.
+
 
 ### A Backgrounder on Background Tasks
 ###### London Audio Developers Meetup - April 2018 - [Content](https://github.com/drowaudio/presentations/tree/master/Audio%20Developer%20Meetup%20April%202018) - [Video](https://skillsmatter.com/skillscasts/11632-audio-developers-meet-up-april)
