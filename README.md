@@ -3,11 +3,20 @@
 This repository holds materials for the various talks and presentations I've given. Links to video recordings where available can be found below.
 
 ###### Index:
+  - [Tracktion Engine](#tracktion-engine)
   - [pluginval - Yeah, but Why Validate Plugins](#pluginval---yeah-but-why-validate-plugins)
   - [A Backgrounder on Background Tasks](#a-backgrounder-on-background-tasks)
   - [Using JUCE value trees and modern C++ to build large scale applications](#using-juce-valuetrees-and-modern-c-to-build-large-scale-applications)
   - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c-with-juce-to-improve-code-clarity)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
+
+### Tracktion Engine
+###### London Audio Developers Meetup - May 2019 - [Content](https://github.com/drowaudio/presentations/blob/master/Audio%20Developer%20Meetup%20May%202019%20-%20Tracktion%20Engine/Audio%20Developer%20Meetup%20May%202019%20-%20Tracktion%20Engine.pdf) - [Video](https://skillsmatter.com/skillscasts/13815-london-audio-developers-the-tracktion-engine-and-interacting-neurons-make-noise)
+
+In November 2019, Tracktion open-sourced their powerful audio engine - the same engine behind their DAW Waveform. Jules and Dave - the authors of Tracktion and Waveform - will give us a tour of the inner working of the engine.
+
+This is a relatively high level overview of the basic Engine principles and goals along with some example projects and discussion around potential use cases.
+
 
 ### pluginval - Yeah, but Why Validate Plugins
 ###### ADC 2018 - [Content](https://github.com/drowaudio/presentations/tree/master/ADC%202018%20-%20pluginval,%20Yeah,%20but%20Why%20Validate%20Plugins) - [Video](https://www.youtube.com/watch?v=Q97LBXqgMus)
