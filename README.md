@@ -3,6 +3,9 @@
 This repository holds materials for the various talks and presentations I've given. Links to video recordings where available can be found below.
 
 ###### Index:
+  - [Real-time Trade-offs](#real-time-trade-offs)
+  - [Real-time 101 - Dave Rowland & Fabian Renn-Giles](#real-time-101---dave-rowland--fabian-renn-giles)
+  - [Real-time programming in modern C++ - Dave Rowland & Fabian Renn-Giles](#real-time-programming-in-modern-c---dave-rowland--fabian-renn-giles)
   - [Tracktion Engine](#tracktion-engine)
   - [pluginval - Yeah, but Why Validate Plugins](#pluginval---yeah-but-why-validate-plugins)
   - [A Backgrounder on Background Tasks](#a-backgrounder-on-background-tasks)
@@ -10,10 +13,45 @@ This repository holds materials for the various talks and presentations I've giv
   - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c-with-juce-to-improve-code-clarity)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
 
+
+### Real-time Trade-offs
+###### The Audio Programmer Meetup - Feb 2020 - [Content](https://github.com/drowaudio/presentations/blob/master/The%20Audio%20Programmer%20Meetup%20Feb%202020%20-%20Real-time%20Trade-offs/Real-time%20Trade-offs.pdf) - [Video](https://youtu.be/JCNyd1KGjMk)
+
+Writing real-time applications can be tricky, usually you obtain real-time guarantees by making sacrifices elsewhere and the costs paid can be subtle.
+We’ll take a look at a concrete example of making an existing mechanism real-time safe and what decisions need to made along the way.
+Spoiler - there won’t be a right answer but there will be lots of questions!
+
+
+### Real-time 101 - Dave Rowland & Fabian Renn-Giles
+###### ADC 2019 - [Content](https://github.com/drowaudio/presentations/blob/master/ADC%202019%20-%20Real-time%20101/Real-time%20101.pdf) - [Video Pt. 1](https://youtu.be/Q0vrQFyAdWI) - [Video Pt. 2](https://youtu.be/PoZAo2Vikbo)
+
+N.B. This is a longer version of the below talk from Meeting C++. We go in to slightly more detail and it is a slower pace so could be more appropriate for those new to the subject.
+
+“Real-time” is a term that gets used a lot, but what does it really mean to different industries? What happens when our “real-time” system doesn’t perform in real-time? And how can we ensure that we don’t get in to this situation?
+
+This talk aims to discuss what we mean by a real-time system, the practices that can be used to try and make sure it stays real-time and in particular how these can be subtly or accidentally abused increasing the risk of violating your real-time constraints.
+
+We’ll take a detailed look at some of the considerations for real-time systems and the costs they involve such as system calls, allocations and priority inversion. Then the common tools in a programmer’s box such as mutexes, condition variables and atomics, how these interact with real-time threads and what costs they can incur.
+
+This talk aims to ensure attendees of all experience levels leave with a solid understanding of the problems in the real-time domain and an overview of the tools commonly used to solve them.
+
+
+### Real-time programming in modern C++ - Dave Rowland & Fabian Renn-Giles
+###### Meeting C++ - Nov 2019 - [Content](https://github.com/drowaudio/presentations/blob/master/MeetingCpp%202019%20-%20Real-time%20101/Real-time%20101/index.html) - [Video](https://youtu.be/ndeN983j_GQ)
+
+N.B. This is a slightly condensed, faster paced version of the above ADC 2019 talk which may be of interest if you're short on time.
+
+“Real-time” is a term that gets used a lot, but what does it really mean to different industries? What happens when our “real-time” system doesn’t perform in real-time? And how can we ensure that we don’t get in to this situation?
+
+This talk is presented in two parts. The first will discuss what we mean by a real-time system, the practices that can be used to try and make sure it stays real-time and in particular how these can be subtly or accidentally abused increasing the risk of violating your real-time constraints. We’ll take a look at some of the considerations for real-time systems and the costs they involve such as system calls, allocations and priority inversion. Then the common tools in a programmer’s box such as mutexes, condition variables and atomics and how these can be deployed effectively. We’ll also look at some common mechanisms built out of these primitives and where they’re most frequently used.
+
+The second part of this talk takes an in-depth look at the difficult problem of synchronization between real-time and non-real-time threads. This talk will share insights, tricks and design patterns, that the author has established over years of real-time audio programming, and has ultimately led to the creation of the open-source farbot library. At the end of this talk, you will be equipped with a set of simple design rules guiding you to the correct solution for various real-time challenges and synchronization situations.
+
+
 ### Tracktion Engine
 ###### London Audio Developers Meetup - May 2019 - [Content](https://github.com/drowaudio/presentations/blob/master/Audio%20Developer%20Meetup%20May%202019%20-%20Tracktion%20Engine/Audio%20Developer%20Meetup%20May%202019%20-%20Tracktion%20Engine.pdf) - [Video](https://skillsmatter.com/skillscasts/13815-london-audio-developers-the-tracktion-engine-and-interacting-neurons-make-noise)
 
-In November 2019, Tracktion open-sourced their powerful audio engine - the same engine behind their DAW Waveform. Jules and Dave - the authors of Tracktion and Waveform - will give us a tour of the inner working of the engine.
+In November 2018, Tracktion open-sourced their powerful audio engine - the same engine behind their DAW Waveform. Jules and Dave - the authors of Tracktion and Waveform - will give us a tour of the inner working of the engine.
 
 This is a relatively high level overview of the basic Engine principles and goals along with some example projects and discussion around potential use cases.
 
