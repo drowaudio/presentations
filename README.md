@@ -15,7 +15,7 @@ This repository holds materials for the various talks and presentations I've giv
 
 
 ### Real-time Trade-offs
-###### The Audio Programmer Meetup - Feb 2020 - [Content](https://github.com/drowaudio/presentations/blob/master/The%20Audio%20Programmer%20Meetup%20Feb%202020%20-%20Real-time%20Trade-offs/Real-time%20Trade-offs.pdf) - [Video](https://youtu.be/JCNyd1KGjMk)
+###### The Audio Programmer Meetup - Feb 2020 - [Content](https://github.com/drowaudio/presentations/blob/master/The%20Audio%20Programmer%20Meetup%20Feb%202020%20-%20Real-time%20Trade-offs/Real-time%20Trade-offs.pdf) - [Video](https://youtu.be/JCNyd1KGjMk) - [Animated Slides](https://drowaudio.github.io/presentations/The%20Audio%20Programmer%20Meetup%20Feb%202020%20-%20Real-time%20Trade-offs/Real-time%20Trade-offs/index.html)
 
 Writing real-time applications can be tricky, usually you obtain real-time guarantees by making sacrifices elsewhere and the costs paid can be subtle.
 We’ll take a look at a concrete example of making an existing mechanism real-time safe and what decisions need to made along the way.
@@ -23,7 +23,7 @@ Spoiler - there won’t be a right answer but there will be lots of questions!
 
 
 ### Real-time 101 - Dave Rowland & Fabian Renn-Giles
-###### ADC 2019 - [Content](https://github.com/drowaudio/presentations/blob/master/ADC%202019%20-%20Real-time%20101/Real-time%20101.pdf) - [Video Pt. 1](https://youtu.be/Q0vrQFyAdWI) - [Video Pt. 2](https://youtu.be/PoZAo2Vikbo)
+###### ADC 2019 - [Content](https://github.com/drowaudio/presentations/blob/master/ADC%202019%20-%20Real-time%20101/Real-time%20101.pdf) - [Video Pt. 1](https://youtu.be/Q0vrQFyAdWI) - [Video Pt. 2](https://youtu.be/PoZAo2Vikbo) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202019%20-%20Real-time%20101/Real-time%20101/index.html)
 
 N.B. This is a longer version of the below talk from Meeting C++. We go in to slightly more detail and it is a slower pace so could be more appropriate for those new to the subject.
 
@@ -37,7 +37,7 @@ This talk aims to ensure attendees of all experience levels leave with a solid u
 
 
 ### Real-time programming in modern C++ - Dave Rowland & Fabian Renn-Giles
-###### Meeting C++ - Nov 2019 - [Content](https://github.com/drowaudio/presentations/blob/master/MeetingCpp%202019%20-%20Real-time%20101/Real-time%20101/index.html) - [Video](https://youtu.be/ndeN983j_GQ)
+###### Meeting C++ - Nov 2019 - [Content](https://github.com/drowaudio/presentations/blob/master/MeetingCpp%202019%20-%20Real-time%20101/Real-time%20101/index.html) - [Video](https://youtu.be/ndeN983j_GQ) - [Animated Slides](https://drowaudio.github.io/presentations/MeetingCpp%202019%20-%20Real-time%20101/Real-time%20101/assets/player/KeynoteDHTMLPlayer.html)
 
 N.B. This is a slightly condensed, faster paced version of the above ADC 2019 talk which may be of interest if you're short on time.
 
