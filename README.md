@@ -3,6 +3,7 @@
 This repository holds materials for the various talks and presentations I've given. Links to video recordings where available can be found below.
 
 ###### Index:
+  - [Introducing Tracktion Graph: A topological processing library for audio](#introducing-tracktion-graph)
   - [Real-time Trade-offs](#real-time-trade-offs)
   - [Real-time 101 - Dave Rowland & Fabian Renn-Giles](#real-time-101---dave-rowland--fabian-renn-giles)
   - [Real-time programming in modern C++ - Dave Rowland & Fabian Renn-Giles](#real-time-programming-in-modern-c---dave-rowland--fabian-renn-giles)
@@ -12,6 +13,14 @@ This repository holds materials for the various talks and presentations I've giv
   - [Using JUCE value trees and modern C++ to build large scale applications](#using-juce-valuetrees-and-modern-c-to-build-large-scale-applications)
   - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c-with-juce-to-improve-code-clarity)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
+
+
+### Introducing Tracktion Graph
+###### ADC 2020 - Nov 2020
+
+Tracktion Graph is a new open source library designed to build and process complex topological graphs of audio and MIDI sources. It was designed to replace the internal processing of the Tracktion Engine framework in order to solve problems such as plugin delay compensation and optimise processing for multi-core CPUs. The resulting library has no dependency on the Tracktion Engine framework and can be used for many generic audio processing applications.
+
+This talk aims to introduce the concept of an audio graph, what the inherent difficulties are and how the Tracktion Graph library solves them. The talk will mainly focus on looking at audio applications as high-level graph abstractions and then introduce the library as a way to realise those abstractions. This should leave the attendee with a broader knowledge of audio graph topologies, how to structure their audio applications and how to utilise Tracktion Graph to make this a quick, painless and safe task.
 
 
 ### Real-time Trade-offs
