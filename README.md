@@ -16,7 +16,7 @@ This repository holds materials for the various talks and presentations I've giv
 
 
 ### Introducing Tracktion Graph
-###### ADC 2020 - Nov 2020 - [PDF Slides](https://github.com/drowaudio/presentations/blob/master/ADC%202020%20-%20Introducing%20Tracktion%20Graph/Introducing%20Tracktion%20Graph.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202020%20-%20Introducing%20Tracktion%20Graph/Introducing%20Tracktion%20Graph/index.html)
+###### ADC 2020 - Nov 2020 - [Video](https://youtu.be/Mkz908eP_4g) - [PDF Slides](https://github.com/drowaudio/presentations/blob/master/ADC%202020%20-%20Introducing%20Tracktion%20Graph/Introducing%20Tracktion%20Graph.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202020%20-%20Introducing%20Tracktion%20Graph/Introducing%20Tracktion%20Graph/index.html)
 
 Tracktion Graph is a new open source library designed to build and process complex topological graphs of audio and MIDI sources. It was designed to replace the internal processing of the Tracktion Engine framework in order to solve problems such as plugin delay compensation and optimise processing for multi-core CPUs. The resulting library has no dependency on the Tracktion Engine framework and can be used for many generic audio processing applications.
 
