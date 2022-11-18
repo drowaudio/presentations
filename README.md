@@ -3,6 +3,9 @@
 This repository holds materials for the various talks and presentations I've given. Links to video recordings where available can be found below.
 
 ###### Index:
+  - [Tabs vs. Spaces 2022 (Panel)](#tabs-vs-spaces-2022-panel)
+  - [Optimising a Real-time Audio Processing Library](#optimising-a-real-time-audio-processing-library)
+  - [Tabs vs. Spaces (Panel)](#tabs-vs-spaces-panel)
   - [Introducing Tracktion Graph: A topological processing library for audio](#introducing-tracktion-graph)
   - [Real-time Trade-offs](#real-time-trade-offs)
   - [Real-time 101 - Dave Rowland & Fabian Renn-Giles](#real-time-101---dave-rowland--fabian-renn-giles)
@@ -13,6 +16,35 @@ This repository holds materials for the various talks and presentations I've giv
   - [Using JUCE value trees and modern C++ to build large scale applications](#using-juce-valuetrees-and-modern-c-to-build-large-scale-applications)
   - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c-with-juce-to-improve-code-clarity)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
+
+### Tabs vs. Spaces 2022 (Panel)
+###### ADC 2022 - Nov 2022
+
+A group of opinionated expert programmers will argue over the right and wrong answers to a selection of programming questions which have no right or wrong answers.
+
+We'll aim to cover a wide range of topics such as: use of locks, exceptions, polymorphism, microservices, OOP, functional paradigms, open and closed source, repository methodologies, languages, textual style and tooling.
+
+The aim of the session is to demonstrate that there is often no clear-cut best-practice for many development topics, and to set an example of how to examine problems from multiple viewpoints.
+
+
+### Optimising a Real-time Audio Processing Library
+###### ADC 2022 - Nov 2022 - [PDF Slides](https://github.com/drowaudio/presentations/blob/master/ADC%202022%20-%20Optomising%20a%20Real-time%20Audio%20Processing%20Library/Optimising%20a%20Real-time%20Audio%20Processing%20Library.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202022%20-%20Optomising%20a%20Real-time%20Audio%20Processing%20Library/Optimising%20a%20Real-time%20Audio%20Processing%20Library/index.html)
+
+This talk will take you through optimising a codebase intended for real-time use from the most practical perspective. Filled with real-world examples and tales of success and failure this should give attendees the tools and knowledge to approach optimising their own code in a pragmatic and confident way.
+
+First, we’ll cover how to actually measure and compare performance across different platforms, the tools to do this and most importantly how to do this continuously over time with CI. Next, we’ll look at the various strategies for identifying areas for optimisation and how these relate to real-world use cases. We’ll look at tradeoffs between CPU and memory and the environments these may have the most influence over.
+
+Finally, we’ll look at some useful tricks and lesser known strategies and where sometimes what you’ve been taught doesn’t actually lead to the best results.
+
+
+### Tabs vs. Spaces (Panel)
+###### ADC 2021 - Nov 2021 - [Video](https://youtu.be/BTQxodkv5Uw)
+
+A group of opinionated expert programmers will argue over the right and wrong answers to a selection of programming questions which have no right or wrong answers.
+
+We'll aim to cover a wide range of topics such as: use of locks, exceptions, polymorphism, microservices, OOP, functional paradigms, open and closed source, repository methodologies, languages, textual style and tooling.
+
+The aim of the session is to demonstrate that there is often no clear-cut best-practice for many development topics, and to set an example of how to examine problems from multiple viewpoints.
 
 
 ### Introducing Tracktion Graph
