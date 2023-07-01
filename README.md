@@ -31,7 +31,7 @@ Finally, we’ll look at some useful tricks and lesser known strategies to disco
 
 
 ### Tabs vs. Spaces 2022 (Panel)
-###### ADC 2022 - Nov 2022
+###### ADC 2022 - Nov 2022 - [Video](https://youtu.be/5N6uO06jL5Y)
 
 A group of opinionated expert programmers will argue over the right and wrong answers to a selection of programming questions which have no right or wrong answers.
 
@@ -41,7 +41,7 @@ The aim of the session is to demonstrate that there is often no clear-cut best-p
 
 
 ### Optimising a Real-time Audio Processing Library
-###### ADC 2022 - Nov 2022 - [PDF Slides](https://github.com/drowaudio/presentations/blob/master/ADC%202022%20-%20Optomising%20a%20Real-time%20Audio%20Processing%20Library/Optimising%20a%20Real-time%20Audio%20Processing%20Library.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202022%20-%20Optomising%20a%20Real-time%20Audio%20Processing%20Library/Optimising%20a%20Real-time%20Audio%20Processing%20Library/index.html)
+###### ADC 2022 - Nov 2022 - [Video](https://youtu.be/FpymA7NLNDs) - [PDF Slides](https://github.com/drowaudio/presentations/blob/master/ADC%202022%20-%20Optomising%20a%20Real-time%20Audio%20Processing%20Library/Optimising%20a%20Real-time%20Audio%20Processing%20Library.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202022%20-%20Optomising%20a%20Real-time%20Audio%20Processing%20Library/Optimising%20a%20Real-time%20Audio%20Processing%20Library/index.html)
 
 This talk will take you through optimising a codebase intended for real-time use from the most practical perspective. Filled with real-world examples and tales of success and failure this should give attendees the tools and knowledge to approach optimising their own code in a pragmatic and confident way.
 
