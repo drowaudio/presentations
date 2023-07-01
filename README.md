@@ -18,7 +18,7 @@ This repository holds materials for the various talks and presentations I've giv
   - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c-with-juce-to-improve-code-clarity)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
 
-### Lessons Learned from Optimising a High Performance Library
+### [Lessons Learned from Optimising a High Performance Library](https://cpponsea.uk/2023/sessions/lessons-learned-from-optimising-a-high-performance-library.html)
 ###### Cpp on Sea 2023 - June 2023 - [PDF Slides](https://github.com/drowaudio/presentations/blob/master/Cpp%20on%20Sea%202023%20-%20Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/Cpp%20on%20Sea%202023%20-%20Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/index.html)
 
 This talk will take you through optimising the “Tracktion Engine” codebase from a practical perspective. Tracktion Engine is a large, real-time audio library powering many audio apps across desktop, mobile and embedded platforms. Filled with real-world examples and tales of success and failure, this talk will give you the tools and knowledge to approach optimising your own code in a pragmatic and confident way.
