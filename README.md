@@ -3,6 +3,7 @@
 This repository holds materials for the various talks and presentations I've given. Links to video recordings where available can be found below.
 
 ###### Index:
+  - [Why you Shouldn't Write a DAW](#why-you-shouldnt-write-a-daw)
   - [Lessons Learned from Optimising a High Performance Library](#lessons-learned-from-optimising-a-high-performance-library)
   - [Tabs vs. Spaces 2022 (Panel)](#tabs-vs-spaces-2022-panel)
   - [Optimising a Real-time Audio Processing Library](#optimising-a-real-time-audio-processing-library)
@@ -18,8 +19,18 @@ This repository holds materials for the various talks and presentations I've giv
   - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c-with-juce-to-improve-code-clarity)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
 
+### [Why you Shouldn't Write a DAW](https://sched.co/1Pud4)
+##### ADC 2023 - Nov 2023 - [PDF Slides](https://github.com/drowaudio/presentations/blob/master/ADC%202023%20-%20Why%20you%20Shouldn't%20Write%20a%20DAW/Why%20you%20Shouldn't%20Write%20a%20DAW.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202023%20-%20Why%20you%20Shouldn't%20Write%20a%20DAW/Why%20you%20Shouldn%E2%80%99t%20Write%20a%20DAW/index.html) - [Video (coming soon...)]()
+
+There are surprisingly few DAWs in the music making world, especially when compared to the number of audio plugins on the market. Why is this? Could it be that all the DAWs in existence are perfect and there’s no need for another one? Perhaps there’s another reason…
+
+In this talk we dive behind the UI/UX to take a deeper look at the technology that underpins DAWs. We’ll take a tour of some of the problems they solve, often transparently to the user, and some of the technical concepts they have to navigate in order to keep music makers in the groove.
+
+Finally, we look at what alternatives there might be if you want to build a product that looks a bit like a DAW and why not building from scratch might save you a lot of time and money.
+
+
 ### [Lessons Learned from Optimising a High Performance Library](https://cpponsea.uk/2023/sessions/lessons-learned-from-optimising-a-high-performance-library.html)
-###### Cpp on Sea 2023 - June 2023 - [PDF Slides](https://github.com/drowaudio/presentations/blob/master/Cpp%20on%20Sea%202023%20-%20Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/Cpp%20on%20Sea%202023%20-%20Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/index.html)
+###### Cpp on Sea 2023 - June 2023 - [PDF Slides](https://github.com/drowaudio/presentations/blob/master/Cpp%20on%20Sea%202023%20-%20Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/Cpp%20on%20Sea%202023%20-%20Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/index.html) - [Video](https://youtu.be/TEeBcjKZhfg)
 
 This talk will take you through optimising the “Tracktion Engine” codebase from a practical perspective. Tracktion Engine is a large, real-time audio library powering many audio apps across desktop, mobile and embedded platforms. Filled with real-world examples and tales of success and failure, this talk will give you the tools and knowledge to approach optimising your own code in a pragmatic and confident way.
 
