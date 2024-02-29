@@ -3,6 +3,7 @@
 This repository holds materials for the various talks and presentations I've given. Links to video recordings where available can be found below.
 
 ###### Index:
+  - [C++ Online 2024: Lessons Learned from Optimising a High Performance Library](#c-online-2024-lessons-learned-from-optimising-a-high-performance-library)
   - [Why you Shouldn't Write a DAW](#why-you-shouldnt-write-a-daw)
   - [Lessons Learned from Optimising a High Performance Library](#lessons-learned-from-optimising-a-high-performance-library)
   - [Tabs vs. Spaces 2022 (Panel)](#tabs-vs-spaces-2022-panel)
@@ -18,6 +19,18 @@ This repository holds materials for the various talks and presentations I've giv
   - [Using JUCE value trees and modern C++ to build large scale applications](#using-juce-valuetrees-and-modern-c-to-build-large-scale-applications)
   - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c-with-juce-to-improve-code-clarity)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
+
+### [C++ Online 2024: Lessons Learned from Optimising a High Performance Library](https://cpponline.uk/session/lessons-learned-from-optimising-a-high-performance-library/)
+###### C++ Online 2024 - Feb 2024 - [PDF Slides](https://github.com/drowaudio/presentations/blob/master/Cpp%20Online%202024%20-%20Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/Cpp%20Online%202024%20-%20Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/index.html) - Video: TBA
+
+This talk will take you through optimising the “Tracktion Engine” codebase from a practical perspective. Tracktion Engine is a large, real-time audio library powering many audio apps across desktop, mobile and embedded platforms. Filled with real-world examples and tales of success and failure, this talk will give you the tools and knowledge to approach optimising your own code in a pragmatic and confident way.
+
+First, we’ll cover how to actually measure and compare performance across different platforms, the tools to do this, and how to integrate continuous performance measuring over time into your CI.
+
+Next, we’ll look at the various strategies for identifying areas for optimisation and how these relate to real-world use cases. We’ll look at how CPU instructions and memory usage can influence execution time and how this varies between different hardware platforms.
+
+Finally, we’ll look at some useful tricks and lesser known strategies to discover that sometimes what you’ve been taught doesn’t actually lead to the best results.
+
 
 ### [Why you Shouldn't Write a DAW](https://sched.co/1Pud4)
 ##### ADC 2023 - Nov 2023 - [PDF Slides](https://github.com/drowaudio/presentations/blob/master/ADC%202023%20-%20Why%20you%20Shouldn't%20Write%20a%20DAW/Why%20you%20Shouldn't%20Write%20a%20DAW.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202023%20-%20Why%20you%20Shouldn't%20Write%20a%20DAW/Why%20you%20Shouldn%E2%80%99t%20Write%20a%20DAW/index.html) - [Video (coming soon...)]()
