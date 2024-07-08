@@ -3,6 +3,7 @@
 This repository holds materials for the various talks and presentations I've given. Links to video recordings where available can be found below.
 
 ###### Index:
+  - [Catching Real-time Safety Violations](#catching-real-time-safety-violations)
   - [C++ Online 2024: Lessons Learned from Optimising a High Performance Library](#c-online-2024-lessons-learned-from-optimising-a-high-performance-library)
   - [Why you Shouldn't Write a DAW](#why-you-shouldnt-write-a-daw)
   - [Lessons Learned from Optimising a High Performance Library](#lessons-learned-from-optimising-a-high-performance-library)
@@ -19,6 +20,15 @@ This repository holds materials for the various talks and presentations I've giv
   - [Using JUCE value trees and modern C++ to build large scale applications](#using-juce-valuetrees-and-modern-c-to-build-large-scale-applications)
   - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c-with-juce-to-improve-code-clarity)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
+
+### [Catching Real-time Safety Violations](https://cpponsea.uk/2024/session/catching-real-time-safety-violations)
+###### C++ on Sea 2024 - July 2024 - [PDF Slides](https://drowaudio.github.io/presentations/.pdf) - [Animated Slides](https://drowaudio.github.io/presentations//index.html) - [Video: TBA]()
+When you’re executing code with real-time requirements (or even performance critical code) you should avoid unbounded calls like locks and system calls (including memory management). Unfortunately neither the C++ standard nor most libraries make any guarantees about how real-time safe various function calls are. Sometimes we can infer this but it’s difficult and error prone.
+
+This talk aims to look at the different strategies we can take to mitigate, or at least minimise, real-time safety violations by calling into unbounded code. It will first look at external tools and how these can be deployed to check running code. Next, code transformations and interposing via the use of libraries will be investigated. Finally there will be a look into some new, currently experimental tools that aim to simplify this process with the flick of a compiler switch.
+
+Across this talk, the performance impacts of various techniques will be discussed as well as how you might deal with multiple threads where only some are considered real-time contexts. This talk aims to give you the tools required to ensure the real-time safety guarantees of your code base.
+
 
 ### [C++ Online 2024: Lessons Learned from Optimising a High Performance Library](https://cpponline.uk/session/lessons-learned-from-optimising-a-high-performance-library/)
 ###### C++ Online 2024 - Feb 2024 - [PDF Slides](https://drowaudio.github.io/presentations/Cpp%20Online%202024%20-%20Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/Cpp%20Online%202024%20-%20Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/Lessons%20Learned%20from%20Optimising%20a%20High%20Performance%20Library/index.html) - [Video](https://youtu.be/c_cXuL_L0Gg)
