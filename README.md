@@ -1,6 +1,7 @@
 # Presentations
 
 This repository holds materials for the various talks and presentations I've given. Links to video recordings where available can be found below.
+Best viewed on [Github Pages](https://drowaudio.github.io/presentations)
 
 ###### Index:
   - [Catching Real-time Safety Violations](#catching-real-time-safety-violations)
