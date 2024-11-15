@@ -5,7 +5,7 @@ This repository holds materials for the various talks and presentations I've giv
 Best viewed on [Github Pages](https://drowaudio.github.io/presentations)
 
 ###### Index:
-  - [Can Audio Progamming be Safe?](#can-audio-programming-be-safe)
+  - [Can Audio Programming be Safe?](#can-audio-programming-be-safe)
   - [Catching Real-time Safety Violations](#catching-real-time-safety-violations)
   - [C++ Online 2024: Lessons Learned from Optimising a High Performance Library](#c-online-2024-lessons-learned-from-optimising-a-high-performance-library)
   - [Why you Shouldn't Write a DAW](#why-you-shouldnt-write-a-daw)
@@ -24,7 +24,7 @@ Best viewed on [Github Pages](https://drowaudio.github.io/presentations)
   - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c-with-juce-to-improve-code-clarity)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
 
-### [Can Audio Progamming be Safe?](https://conference.audio.dev/session/2024/can-audio-programming-be-safe/)
+### [Can Audio Programming be Safe?](https://conference.audio.dev/session/2024/can-audio-programming-be-safe/)
 ##### ADC 2024 - Nov 2024 - [PDF Slides](https://drowaudio.github.io/presentations/ADC%202024%20-%20Can%20Audio%20Programming%20be%20Safe%3F/Can%20Audio%20Programming%20be%20Safe%3F.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202024%20-%20Can%20Audio%20Programming%20be%20Safe%3F/Can%20Audio%20Programming%20be%20Safe%3F/index.html) - [Video - TBD]()
 
 Safety is an increasingly discussed topic in relation to programming and often little or misunderstood. With organisations like the NSA and NIST recommending developers move away from memory unsafe languages (such as C & C++), there is a lot of uncertainty in the air about what this means for current programing practices. With a focus on the audio industry, are we even exposed to any of these risks?
