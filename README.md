@@ -25,7 +25,7 @@ Best viewed on [Github Pages](https://drowaudio.github.io/presentations)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
 
 ### [Can Audio Progamming be Safe?](https://conference.audio.dev/session/2024/can-audio-programming-be-safe/)
-##### ADC 2024 - Nov 2024 - [PDF Slides](https://github.com/drowaudio/presentations/blob/master/ADC%202024%20-%20Can%20Audio%20Programming%20be%20Safe%3F/Can%20Audio%20Programming%20be%20Safe%3F.pdf) - [Animated Slides](ADC%202024%20-%20Can%20Audio%20Programming%20be%20Safe%3F/Can%20Audio%20Programming%20be%20Safe%3F/index.html) - [Video - TBD]()
+##### ADC 2024 - Nov 2024 - [PDF Slides](https://drowaudio.github.io/presentations/ADC%202024%20-%20Can%20Audio%20Programming%20be%20Safe%3F/Can%20Audio%20Programming%20be%20Safe%3F.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202024%20-%20Can%20Audio%20Programming%20be%20Safe%3F/Can%20Audio%20Programming%20be%20Safe%3F/index.html) - [Video - TBD]()
 
 Safety is an increasingly discussed topic in relation to programming and often little or misunderstood. With organisations like the NSA and NIST recommending developers move away from memory unsafe languages (such as C & C++), there is a lot of uncertainty in the air about what this means for current programing practices. With a focus on the audio industry, are we even exposed to any of these risks?
 
