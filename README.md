@@ -5,6 +5,7 @@ This repository holds materials for the various talks and presentations I've giv
 Best viewed on [Github Pages](https://drowaudio.github.io/presentations)
 
 ###### Index:
+  - [What can C++ Learn about Thread Safety from other Languages?](#what-can-c-learn-about-thread-safety-from-other-languages)
   - [Can Audio Programming be Safe?](#can-audio-programming-be-safe)
   - [Catching Real-time Safety Violations](#catching-real-time-safety-violations)
   - [C++ Online 2024: Lessons Learned from Optimising a High Performance Library](#c-online-2024-lessons-learned-from-optimising-a-high-performance-library)
@@ -23,6 +24,15 @@ Best viewed on [Github Pages](https://drowaudio.github.io/presentations)
   - [Using JUCE value trees and modern C++ to build large scale applications](#using-juce-valuetrees-and-modern-c-to-build-large-scale-applications)
   - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c-with-juce-to-improve-code-clarity)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
+
+### [What can C++ Learn about Thread Safety from other Languages?]()
+##### C++ Online 2025 - Feb 2025 - [PDF Slides](https://drowaudio.github.io/presentations/Cpp%20Online%202025%20-%20What%20can%20C%2B%2B%20learn%20about%20thread%20safety%20from%20other%20languages/What%20can%20C%2B%2B%20Learn%20about%20Thread%20Safety%20from%20other%20Languages.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/Cpp%20Online%202025%20-%20What%20can%20C%2B%2B%20learn%20about%20thread%20safety%20from%20other%20languages/What%20can%20C%2B%2B%20Learn%20about%20Thread%20Safety%20from%20other%20Languages/index.html) - [Video - TBD]()
+Memory safety issues in C++ have been discussed in great length over the past few years but a big corner of safety and security, thread safety seems to get far less coverage. Even in the current WG21 ISO proposals, most of the focus is on bounds, initialisation and lifetime, with little being said about thread safety.
+
+Bugs stemming from thread safety problems tend to be difficult to diagnose and fix. Effects often happen a long time after a data race occurs and in unrelated areas. In order to take advantage of modern hardware C++ is becoming an increasingly concurrent language, we should have good language support or at least robust libraries to enforce thread safety.
+
+Other languages manage this. What can we learn from them and how far can we get applying their thread safety strategies to C++? And in doing so, what can we in turn learn about C++?
+
 
 ### [Can Audio Programming be Safe?](https://conference.audio.dev/session/2024/can-audio-programming-be-safe/)
 ##### ADC 2024 - Nov 2024 - [PDF Slides](https://drowaudio.github.io/presentations/ADC%202024%20-%20Can%20Audio%20Programming%20be%20Safe%3F/Can%20Audio%20Programming%20be%20Safe%3F.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202024%20-%20Can%20Audio%20Programming%20be%20Safe%3F/Can%20Audio%20Programming%20be%20Safe%3F/index.html) - [Video - TBD]()
