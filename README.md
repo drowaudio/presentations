@@ -35,7 +35,7 @@ Other languages manage this. What can we learn from them and how far can we get 
 
 
 ### [Can Audio Programming be Safe?](https://conference.audio.dev/session/2024/can-audio-programming-be-safe/)
-##### ADC 2024 - Nov 2024 - [PDF Slides](https://drowaudio.github.io/presentations/ADC%202024%20-%20Can%20Audio%20Programming%20be%20Safe%3F/Can%20Audio%20Programming%20be%20Safe%3F.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202024%20-%20Can%20Audio%20Programming%20be%20Safe%3F/Can%20Audio%20Programming%20be%20Safe%3F/index.html) - [Video - TBD]()
+##### ADC 2024 - Nov 2024 - [PDF Slides](https://drowaudio.github.io/presentations/ADC%202024%20-%20Can%20Audio%20Programming%20be%20Safe%3F/Can%20Audio%20Programming%20be%20Safe%3F.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202024%20-%20Can%20Audio%20Programming%20be%20Safe%3F/Can%20Audio%20Programming%20be%20Safe%3F/index.html) - [Video](https://youtu.be/Uda9h52pzuA?si=29IIKUXcgzX0PJgx)
 
 Safety is an increasingly discussed topic in relation to programming and often little or misunderstood. With organisations like the NSA and NIST recommending developers move away from memory unsafe languages (such as C & C++), there is a lot of uncertainty in the air about what this means for current programing practices. With a focus on the audio industry, are we even exposed to any of these risks?
 
