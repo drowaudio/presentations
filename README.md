@@ -27,7 +27,7 @@ Best viewed on [Github Pages](https://drowaudio.github.io/presentations)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
 
 ### [C++ On Sea 2025: What can C++ Learn about Thread Safety from other Languages?](https://cpponsea.uk/2025/session/what-can-cpp-learn-about-thread-safety-from-other-languages)
-##### C++ On Sea 2025 - June 2025 - [PDF Slides]() - [Animated Slides]() - [Video - TBD]()
+##### C++ On Sea 2025 - June 2025 - [PDF Slides]() - [Animated Slides]() - [Video](https://youtu.be/MQZ9Xn3jvxQ)
 Memory safety issues in C++ have been discussed in great length over the past few years but a big corner of safety and security, thread safety seems to get far less coverage. Even in the current WG21 ISO proposals, most of the focus is on bounds, initialisation and lifetime, with little being said about thread safety.
 
 Bugs stemming from thread safety problems tend to be difficult to diagnose and fix. Effects often happen a long time after a data race occurs and in unrelated areas. In order to take advantage of modern hardware C++ is becoming an increasingly concurrent language, we should have good language support or at least robust libraries to enforce thread safety.
