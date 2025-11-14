@@ -5,6 +5,7 @@ This repository holds materials for the various talks and presentations I've giv
 Best viewed on [Github Pages](https://drowaudio.github.io/presentations)
 
 ###### Index:
+  - [ADC 2025: Lock-free queues in the multiverse of madness](#adc-2025-lock-free-queues-in-the-multiverse-of-madness)
   - [C++ On Sea 2025: What can C++ Learn about Thread Safety from other Languages?](#c-on-sea-2025-what-can-c-learn-about-thread-safety-from-other-languages)
   - [C++ Online 2025: What can C++ Learn about Thread Safety from other Languages?](#c-online-2025-what-can-c-learn-about-thread-safety-from-other-languages)
   - [Can Audio Programming be Safe?](#can-audio-programming-be-safe)
@@ -25,6 +26,18 @@ Best viewed on [Github Pages](https://drowaudio.github.io/presentations)
   - [Using JUCE value trees and modern C++ to build large scale applications](#using-juce-valuetrees-and-modern-c-to-build-large-scale-applications)
   - [Using Modern C++ with JUCE to Improve Code Clarity](#using-modern-c-with-juce-to-improve-code-clarity)
   - [Using C++11 to Improve Code Clarity- Braced Initialisers](#using-c11-to-improve-code-clarity---braced-initialisers)
+
+
+### [ADC 2025: Lock-free queues in the multiverse of madness](https://conference.audio.dev/session/2025/lock-free-queues-in-the-multiverse-of-madness)
+##### ADC 2025 - Nov 2025 - [PDF Slides](https://drowaudio.github.io/presentations/ADC%202025%20-%20Lock-free%20queues%20in%20the%20multiverse%20of%20madness/Lock-free%20queues%20in%20the%20multiverse%20of%20madness.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/ADC%202025%20-%20Lock-free%20queues%20in%20the%20multiverse%20of%20madness/Lock-free%20queues%20in%20the%20multiverse%20of%20madness/index.html) - [Video - TBC]()
+Lock-free queues are the unsung heroes of audio software systems, quietly enabling ultra-low latency and thread-safe communication across a dizzying variety of scenarios. But just like navigating a multiverse, the world of lock-free queues is filled with many different variants-each with their own quirks, trade-offs, and hardware demands.
+
+In this talk, we’ll embark on a journey through this multiverse, starting with the simplest dimension: the single-producer, single-consumer queue. We’ll uncover why lock-free designs often outshine traditional lock-based approaches in real-time audio environments, and explore various implementations along with their pros and cons.
+
+From there, we’ll warp into more complex realities featuring single-producer, multi-consumer and multi-producer, multi-consumer queues. Along the way, we’ll tackle mind-bending concepts like memory ordering, cache coherence, and platform-specific behaviour.
+
+By the end of this adventure, you’ll have the insight needed to confidently select and implement the perfect lock-free queue for your audio projects-no matter how mad the multiverse gets.
+
 
 ### [C++ On Sea 2025: What can C++ Learn about Thread Safety from other Languages?](https://cpponsea.uk/2025/session/what-can-cpp-learn-about-thread-safety-from-other-languages)
 ##### C++ On Sea 2025 - June 2025 - [PDF Slides](https://drowaudio.github.io/presentations/Cpp%20on%20Sea%202025%20-%20What%20Can%20C%2B%2B%20Learn%20About%20Thread%20Safety%20From%20Other%20Languages/Cpp%20on%20Sea%20-%20What%20Can%20C%2B%2B%20Learn%20About%20Thread%20Safety%20From%20Other%20Languages.pdf) - [Animated Slides](https://drowaudio.github.io/presentations/Cpp%20on%20Sea%202025%20-%20What%20Can%20C%2B%2B%20Learn%20About%20Thread%20Safety%20From%20Other%20Languages/Cpp%20on%20Sea%20-%20What%20Can%20C%2B%2B%20Learn%20About%20Thread%20Safety%20From%20Other%20Languages/index.html) - [Video](https://youtu.be/MQZ9Xn3jvxQ)
